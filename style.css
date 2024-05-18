@@ -9,11 +9,11 @@ body{
     justify-content: center;
     align-items: center;
     background: whitesmoke;
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #222831, #31363F, #0F2027);
 }
 
 .calculator{
-    background: white;
+    background: black;
     width: 400px;
     border-radius: 12px;
     box-shadow: 0 5px 30px -5px rgba(0,0,0,0.6);
@@ -69,7 +69,7 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    background: rgb(199,199,199);
+    background: #31363F;
 }
 
 button:hover{
@@ -91,7 +91,7 @@ button:focus{
 }
 
 .clear{
-    background: rgb(255,40,40);
+    background: grey;
     color: white;
 }
 
@@ -101,7 +101,7 @@ button:focus{
 .equal-sign{
     grid-column: -2;
     grid-row: 2 / span 4;
-    background: rgb(13,206,87);
+    background: #FF8A08;
 }
 
 
